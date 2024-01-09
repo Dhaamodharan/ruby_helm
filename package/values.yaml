@@ -17,3 +17,5 @@ service:
 serviceAccount:
   create: true
 
+ingress:
+  enabled: true
