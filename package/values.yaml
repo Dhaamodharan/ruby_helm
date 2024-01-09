@@ -1,0 +1,16 @@
+# values.yaml
+
+# Define the image repository and tag for your Ruby application
+image:
+  repository: dhamodocker/httpd
+  tag: main-d2e2673
+
+# Specify the number of replicas for your application
+replicaCount: 1
+
+# Define the service details (e.g., type, ports)
+service:
+  enabled: true
+  type: ClusterIP
+  port: 80
+
